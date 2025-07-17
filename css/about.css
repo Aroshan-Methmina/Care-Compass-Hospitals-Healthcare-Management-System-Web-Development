@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:all .2s linear;
+    font-family: "Inter", sans-serif;
+}
+.about{
+   
+    background-size: 70%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.inner-section{
+    width: 55%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+    
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 20px;
+    color: #545454;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        h2 {
+            color: #0073e6;
+            text-align: center;
+        }
+        h1 {
+            color:rgb(11, 11, 11);
+            text-align: center;
+        }
+        .text {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .features {
+            background: #eef5ff;
+            padding: 18px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features ul li {
+            padding: 8px 0;
+            font-size: 18px;
+        }
+        .features ul li::before {
+            content: '✅';
+            margin-right: 10px;
+            color: #0073e6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+            color: #0073e6;
+            font-weight: bold;
+        }
+        
